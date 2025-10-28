@@ -1,0 +1,9 @@
+{
+	"name": "df-dataspotifyproject",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "700443de-2db7-4861-bc6a-45ee20cfe3b3",
+		"tenantId": "482198bb-ae7b-4b25-8b7a-6d7f32faa083"
+	}
+}
