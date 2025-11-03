@@ -1,0 +1,9 @@
+{
+	"name": "thanhfactory",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a5c9acae-55be-4a50-89b5-6be11df64b17",
+		"tenantId": "f7638cac-7c0f-4387-8aeb-69db62e3d1d6"
+	}
+}
