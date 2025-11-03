@@ -152,7 +152,7 @@
 					},
 					"ifFalseActivities": [
 						{
-							"name": "Delete1",
+							"name": "DeleteEmptyFile",
 							"type": "Delete",
 							"dependsOn": [],
 							"policy": {
@@ -176,7 +176,7 @@
 										"file": "@concat(pipeline().parameters.table,'_',variables('current'))"
 									}
 								},
-								"enableLogging": true,
+								"enableLogging": false,
 								"storeSettings": {
 									"type": "AzureBlobFSReadSettings",
 									"recursive": true,
