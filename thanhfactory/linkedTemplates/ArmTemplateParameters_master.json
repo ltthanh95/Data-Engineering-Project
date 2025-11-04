@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "thanhfactory"
+		},
+		"FactoryAzureDataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"FactorySql_password": {
+			"value": ""
+		},
+		"FactoryAzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://thanhstorage.dfs.core.windows.net/"
+		},
+		"FactorySql_properties_typeProperties_server": {
+			"value": "thanhsqldbserver.database.windows.net"
+		},
+		"FactorySql_properties_typeProperties_database": {
+			"value": "thanhdb"
+		},
+		"FactorySql_properties_typeProperties_userName": {
+			"value": "thanhadmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
