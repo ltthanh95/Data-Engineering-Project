@@ -1,0 +1,12 @@
+{
+	"name": "CopyDataSql",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FactorySql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
